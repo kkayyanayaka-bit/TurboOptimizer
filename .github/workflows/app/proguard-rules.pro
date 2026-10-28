@@ -1,1 +1,5 @@
-
+-keep class net.lingala.zip4j.** { *; }
+-keep class androidx.work.** { *; }
+-dontwarn net.lingala.zip4j.**
+-dontwarn javax.**
+-dontwarn org.slf4j.**
